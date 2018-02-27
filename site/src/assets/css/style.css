@@ -269,6 +269,43 @@ OUR SERVICES SECTION
 }
 
 /* ------------------------------------------------------------------
+Problems Section
+--------------------------------------------------------------------- */
+.problems-section {
+  display: flex;
+}
+
+.problems-section .problems-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------
+Janus Graph Section
+--------------------------------------------------------------------- */
+
+.janus-graph-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  height: 388px;
+}
+
+.janus-graph-text .safety,
+.janus-graph-text .control {
+  align-content: center;
+  justify-content: center;
+  display: flex;
+  font-size: 40px;
+  line-height: 70px;
+  text-transform: uppercase;
+}
+
+/* ------------------------------------------------------------------
 Featuer Section
 --------------------------------------------------------------------- */
 .feature-section {

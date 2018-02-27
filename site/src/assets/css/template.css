@@ -125,6 +125,13 @@ address {
   line-height: 54px;
 }
 
+.color-blue {
+  color: #114263;
+}
+.color-gold {
+  color: #EB9F10;
+}
+
 
 /* ----------------------------------------------------------------
 Breadcrumb
