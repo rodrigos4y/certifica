@@ -67,6 +67,10 @@ Author: Cloud Software Solution Ltd.
     animation-delay         : 250ms;
     }
 
+.hero-slide .google-play-logo {
+  width: 200px;
+  min-width: 0;
+}
 /* Slider Controller */
 
 .hero-slide .carousel-control.left {
@@ -288,21 +292,12 @@ Janus Graph Section
 --------------------------------------------------------------------- */
 
 .janus-graph-text {
-  display: flex;
-  flex-direction: column;
-  align-content: center;
-  justify-content: center;
-  height: 388px;
+
 }
 
 .janus-graph-text .safety,
 .janus-graph-text .control {
-  align-content: center;
-  justify-content: center;
-  display: flex;
-  font-size: 40px;
-  line-height: 70px;
-  text-transform: uppercase;
+  
 }
 
 /* ------------------------------------------------------------------
@@ -689,7 +684,7 @@ span.count-description strong {
   color: #fff;
 }
 
-span.count-description {
+.counter-section .counter-block span {
   position: relative;
   display: inline-block;
   color: #fff;
@@ -697,13 +692,14 @@ span.count-description {
   line-height: 28px;
   padding: 0 0 0 100px;
   font-weight: 400;
+  height: 70px;
+  line-height: 70px;
 }
 
-span.count-description:before {
+.counter-section .counter-block span:before {
   position: absolute;
   left: 0;
   top: 0;
-  content: "\e01d";
   font-family: Flaticon;
   font-size: 100px;
   line-height: 70px;
