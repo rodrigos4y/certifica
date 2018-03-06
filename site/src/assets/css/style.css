@@ -1521,3 +1521,11 @@ Contact Page
   background-color: #fff;
   padding: 2px;
 }
+/* ----------------------------------------------------------------
+Estilo da Certifica
+-------------------------------------------------------------------*/
+
+.navbar-brand > img {
+  width: 100px;
+  margin-top: -20px;
+}
