@@ -216,21 +216,12 @@
           <section class="counter-section" data-stellar-background-ratio="0.5">
             <div class="container">
           <div class="row">
-                <div class="col-sm-4 col-xs-12">
+                <div *ngFor="let info of data" class="col-sm-4 col-xs-12">
                   <div class="counter-block">
-                    <span class="flaticon-logistics29"><strong class="timer">1500</strong> caminhões (média)</span>
+                    <span class="{{info.icon}}">{{info.info}}</span>
                   </div>
                 </div> 
-                <div class="col-sm-4 col-xs-12">
-                  <div class="counter-block">
-                    <span class="flaticon-weight15"><strong class="timer">5500t</strong> mercadorias (média)</span>
-                  </div>
-                </div> 
-                <div class="col-sm-4 col-xs-12">
-                  <div class="counter-block">
-                    <span class="flaticon-logistics41"><strong class="timer">R$ 5.585.755,63</strong> mercadorias remetidas</span>
-                  </div>
-                </div> 
+               
               </div> <!-- /.row -->
             </div><!-- /.container -->
           </section><!-- /.counter-section -->
